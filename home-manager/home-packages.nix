@@ -1,11 +1,16 @@
-{ pkgs, ... }:
+{ pkgs, config, inputs,  ... }:
 {
   nixpkgs.config.allowUnfree = true;
+
+  imports = [
+    inputs.zen-browser.homeModules.default
+  ];
+
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
 
-  # programs.zen-browser.enable = true;
+  programs.zen-browser.enable = true;
   home.packages = with pkgs; [
     firefox
     vscode
@@ -18,7 +23,7 @@
     steam
     pavucontrol
     logseq
-    zen-browser.packages."x86_64-linux".default
+    # zen-browser.packages."x86_64-linux".default
 
     git
     btop
