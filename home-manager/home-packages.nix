@@ -15,8 +15,10 @@
     telegram-desktop
     amnezia-vpn
     harmonoid
-    steam
+    hydralauncher
+    hyprlock
     pavucontrol
+    steam
     logseq
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     warpinator
@@ -29,8 +31,7 @@
     brightnessctl
     gnutar
     ffmpeg
-
-    font-awesome
+    
     gcc
     go
     clang-tools
