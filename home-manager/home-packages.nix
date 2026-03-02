@@ -27,6 +27,7 @@
     syncthing
     brightnessctl
     gnutar
+    ffmpeg
 
     font-awesome
     gcc
