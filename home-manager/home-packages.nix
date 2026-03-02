@@ -19,6 +19,7 @@
     pavucontrol
     logseq
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
+    warpinator
 
     git
     docker
