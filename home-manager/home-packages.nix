@@ -18,7 +18,7 @@
     steam
     pavucontrol
     logseq
-    inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.zen-browser.packages."x86_64-linux".default
 
     git
     btop
