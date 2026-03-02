@@ -30,5 +30,6 @@
     font-awesome
     gcc
     go
+    clang-tools
   ];
 }
