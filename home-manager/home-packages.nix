@@ -25,5 +25,7 @@
     fastfetch
     syncthing
     brightnessctl
+
+    otf-font-awesome
   ];
 }
