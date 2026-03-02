@@ -15,7 +15,7 @@
     nixosConfigurations.gemenix = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
-        /etc/nixos/configuration.nix
+        ./nixos/configuration.nix
         # Здесь НЕТ home-manager! Система о нем не знает
       ];
     };
