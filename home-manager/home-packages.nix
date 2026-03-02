@@ -26,6 +26,6 @@
     syncthing
     brightnessctl
 
-    otf-font-awesome
+    font-awesome
   ];
 }
