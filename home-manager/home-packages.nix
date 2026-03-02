@@ -33,5 +33,4 @@
     clang-tools
     python3
   ];
-  programs.amnezia-vpn.enable = true;
 }
