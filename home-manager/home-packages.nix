@@ -1,4 +1,4 @@
-{ pkgs, inputs, ... }:
+{ pkgs, ... }:
 {
   nixpkgs.config.allowUnfree = true;
 
@@ -18,7 +18,7 @@
     steam
     pavucontrol
     logseq
-    inputs.zen-browser.packages."x86_64-linux".default
+    zen-browser.packages."x86_64-linux".default
 
     git
     btop
