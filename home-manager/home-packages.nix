@@ -1,11 +1,6 @@
-{ config, pkgs, inputs, ... }:
+{ pkgs, ... }:
 {
   nixpkgs.config.allowUnfree = true;
-
-  imports = [
-    inputs.zen-browser.homeModules.default
-  ];
-
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
