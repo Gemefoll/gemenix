@@ -9,7 +9,7 @@
       monitor = ",preferred,auto,1";
       "$mainMod" = "SUPER";
       "$terminal" = "alacritty";
-      "$browser" = "firefox";
+      "$browser" = "zen";
       # "$fileManager" = "$terminal -e sh -c 'ranger'";
       "$menu" = "rofi -show drun";
 
