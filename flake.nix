@@ -27,7 +27,8 @@
     # Конфигурация Home Manager (пользователь)
     homeConfigurations."gemefoll" = home-manager.lib.homeManagerConfiguration {
       pkgs = nixpkgs.legacyPackages.x86_64-linux;
-      
+      inherit inputs;
+
       # Модули Home Manager
       modules = [
         ./home-manager/home.nix
