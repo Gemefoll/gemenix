@@ -16,13 +16,12 @@
       system = "x86_64-linux";
       modules = [
         ./nixos/configuration.nix
-        # Здесь НЕТ home-manager! Система о нем не знает
       ];
     };
 
     # Конфигурация Home Manager (пользователь)
     homeConfigurations."gemefoll" = home-manager.lib.homeManagerConfiguration {
-      pkgs = nixpkgs.legacyPackages.x86_64-linux; # Версия пакетов
+      pkgs = nixpkgs.legacyPackages.x86_64-linux;
       
       # Модули Home Manager
       modules = [
