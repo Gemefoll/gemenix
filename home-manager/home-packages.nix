@@ -21,6 +21,7 @@
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
 
     git
+    docker
     btop
     fastfetch
     syncthing
