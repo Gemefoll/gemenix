@@ -15,6 +15,7 @@
 
       exec-once = [
         "waybar"
+        "sudo AmneziaVPN-service"
       ];
 
       general = {
