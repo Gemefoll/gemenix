@@ -26,6 +26,7 @@
     fastfetch
     syncthing
     brightnessctl
+    gnutar
 
     font-awesome
     gcc
