@@ -27,5 +27,6 @@
     brightnessctl
 
     font-awesome
+    libgcc
   ];
 }

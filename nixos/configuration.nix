@@ -83,7 +83,6 @@
   environment.systemPackages = with pkgs; [
     nixfmt
     vim
-    libgcc
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
