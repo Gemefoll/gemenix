@@ -22,6 +22,7 @@
     logseq
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     warpinator
+    libreoffice-fresh
 
     git
     docker
