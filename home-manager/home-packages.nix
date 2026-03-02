@@ -28,5 +28,6 @@
 
     font-awesome
     gcc
+    go
   ];
 }
