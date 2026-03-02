@@ -15,7 +15,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }: {
+  outputs = { self, nixpkgs, home-manager, ... }@inputs: {
     # Конфигурация NixOS (система)
     nixosConfigurations.gemenix = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
