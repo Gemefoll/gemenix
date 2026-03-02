@@ -26,7 +26,7 @@
       
       # Модули Home Manager
       modules = [
-        ~/.config/home.nix
+        ~/.config/home-manager/home.nix
       ];
     };
   };
