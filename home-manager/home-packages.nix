@@ -31,5 +31,6 @@
     gcc
     go
     clang-tools
+    python3
   ];
 }
