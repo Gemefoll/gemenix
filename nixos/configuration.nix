@@ -82,7 +82,8 @@
   # You can use https://search.nixos.org/ to find more packages (and options).
   environment.systemPackages = with pkgs; [
     nixfmt
-    vim   
+    vim
+    libgcc
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
