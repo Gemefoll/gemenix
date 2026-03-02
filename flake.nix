@@ -26,7 +26,7 @@
       
       # Модули Home Manager
       modules = [
-        ~/.config/home-manager/home.nix
+        home/gemefoll/.config/home-manager/home.nix
       ];
     };
   };
