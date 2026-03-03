@@ -23,6 +23,7 @@
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     warpinator
     libreoffice-fresh
+    thunar
 
     git
     docker

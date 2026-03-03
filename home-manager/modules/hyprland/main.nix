@@ -10,7 +10,7 @@
       "$mainMod" = "SUPER";
       "$terminal" = "alacritty";
       "$browser" = "zen";
-      # "$fileManager" = "$terminal -e sh -c 'ranger'";
+      "$fileManager" = "thunar";
       "$menu" = "rofi -show drun";
 
       exec-once = [
