@@ -8,7 +8,7 @@
       "$mainMod,       F, togglefloating,"
       "$mainMod,       R, exec, $menu"
       "$mainMod,       W, exec, $browser"
-      "$mainMod,       W, exec, hyprlock"
+      "$mainMod,       L, exec, hyprlock"
 
       # Switching workspaces
       "$mainMod, 1, workspace, 1"
