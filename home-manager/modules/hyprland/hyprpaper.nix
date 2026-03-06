@@ -1,16 +1,15 @@
+{ pkgs, ... }:
+let
+  src = pkgs.fetchurl {
+    url = "https://4kwallpapers.com/images/wallpapers/frierens-staff-3840x2160-20067.jpg";
+    hash = "sha256-+c61EjkIzVNB+dOv5GPBSfiGe59jPUjl3alVh7UGlE0=";
+  };
+in
 {
-  services.hyprpaper = {
-    enable = true;
-    settings = {
-      preload = [
-        "../../../wallpaper.jpg"
-      ];
-      wallpaper = [
-        # By display
-        #"DP-2,~/wallpapers/wallpaper2.jpg"
-        # By default/fallback
-        "../../../wallpaper.jpg"
-      ];
+  services.wpaperd.enable = true;
+  services.wpaperd.settings = {
+    eDP-1 = {
+      path = src;
     };
   };
 }
