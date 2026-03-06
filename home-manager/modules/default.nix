@@ -1,8 +1,9 @@
 {
   imports = [
-    ./hyprland
-    ./syncthing.nix
     ./git.nix
+    ./hyprland
     ./stylix.nix
+    ./syncthing.nix
+    ./waybar
   ];
 }
