@@ -5,5 +5,6 @@
     ./syncthing.nix
     ./waybar
     ./fonts.nix
+    ./gtk.nix
   ];
 }

@@ -24,6 +24,7 @@
     vscode
     warpinator
     waybar
+    lmms
 
     brightnessctl
     btop
