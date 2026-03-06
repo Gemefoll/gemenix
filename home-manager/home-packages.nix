@@ -39,7 +39,6 @@
     clang-tools
     gcc
     go
-    jetbrains-mono
     python3
   ];
 }
