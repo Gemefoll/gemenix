@@ -24,6 +24,7 @@
     warpinator
     libreoffice-fresh
     thunar
+    mindustry-wayland
 
     git
     docker
@@ -38,5 +39,6 @@
     go
     clang-tools
     python3
+    jetbrains-mono
   ];
 }

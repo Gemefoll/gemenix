@@ -1,6 +1,12 @@
-{ pkgs, inputs, ... }:
+{
+  pkgs,
+  inputs,
+  config,
+  ...
+}:
 {
   imports = [ inputs.stylix.homeModules.stylix ];
+  stylix.autoEnable = true;
   stylix = {
     enable = true;
     polarity = "dark";
@@ -9,6 +15,18 @@
       name = "DMZ-Black";
       size = 36;
       package = pkgs.vanilla-dmz;
+    };
+
+    fonts = {
+      emoji = {
+        name = "Noto Color Emoji";
+        package = pkgs.noto-fonts-color-emoji;
+      };
+
+      sizes = {
+        terminal = 13;
+        applications = 11;
+      };
     };
 
     icons = {
