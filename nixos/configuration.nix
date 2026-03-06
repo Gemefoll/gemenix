@@ -36,6 +36,8 @@
   # Set your time zone.
   time.timeZone = "Europe/Moscow";
 
+  services.displayManager.ly.enable = true;
+
   programs.hyprland.enable = true;
 
   # Configure network proxy if necessary
