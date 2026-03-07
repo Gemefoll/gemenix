@@ -16,11 +16,6 @@
       package = pkgs.adwaita-icon-theme;
     };
     
-    cursorTheme = {
-      name = "Adwaita";
-      package = pkgs.adwaita-icon-theme;
-    };
-    
     # Включить тёмный режим для приложений GTK
     gtk3.extraConfig = {
       gtk-application-prefer-dark-theme = true;
