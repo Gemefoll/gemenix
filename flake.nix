@@ -18,7 +18,7 @@
     };
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }@inputs: {
+  outputs = { self, nixpkgs, home-manager, stylix, ... }@inputs: {
     nixosConfigurations.gemenix = nixpkgs.lib.nixosSystem {
       system = "x86_64-linux";
       modules = [
