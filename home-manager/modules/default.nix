@@ -6,6 +6,6 @@
     ./waybar
     # ./fonts.nix
     ./stylix.nix
-    ./gtk.nix
+    # ./gtk.nix
   ];
 }

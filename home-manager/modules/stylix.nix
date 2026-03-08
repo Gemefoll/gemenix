@@ -12,11 +12,11 @@
     fonts = {
       monospace = {
         package = pkgs.jetbrains-mono;
-        name = "JetBrains Mono";
+        name = "JetBrainsMono NF";
       };
-      serif = config.stylix.fonts.monospace;
+      # serif = config.stylix.fonts.monospace;
       sansSerif = config.stylix.fonts.monospace;
-      emoji = config.stylix.fonts.monospace;
+      # emoji = config.stylix.fonts.monospace;
     };
   };
 }
