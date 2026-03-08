@@ -39,6 +39,7 @@
   services.displayManager.ly.enable = true;
 
   programs.hyprland.enable = true;
+  programs.niri.enable = true;
 
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
@@ -77,7 +78,7 @@
     extraGroups = [
       "wheel"
       "input"
-      "NetworkManager"
+      "networkmanager"
       "docker"
     ]; # Enable ‘sudo’ for the user.
     #   packages = with pkgs; [

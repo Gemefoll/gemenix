@@ -25,6 +25,7 @@
     warpinator
     waybar
     lmms
+    fuzzel
 
     brightnessctl
     btop

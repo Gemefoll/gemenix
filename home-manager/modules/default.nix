@@ -4,7 +4,8 @@
     ./hyprland
     ./syncthing.nix
     ./waybar
-    ./fonts.nix
+    # ./fonts.nix
+    ./stylix.nix
     ./gtk.nix
   ];
 }
