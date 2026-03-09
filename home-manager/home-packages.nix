@@ -24,8 +24,6 @@
     vscode
     warpinator
     waybar
-    lmms
-    fuzzel
 
     brightnessctl
     btop
@@ -37,7 +35,7 @@
     syncthing
     unzip
     zip
-    
+
     clang-tools
     gcc
     go

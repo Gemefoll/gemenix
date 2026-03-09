@@ -6,6 +6,7 @@
   config,
   lib,
   pkgs,
+  niri-flake,
   ...
 }:
 
@@ -39,7 +40,7 @@
   services.displayManager.ly.enable = true;
 
   programs.hyprland.enable = true;
-  programs.niri.enable = true;
+  virtualisation.docker.enable = true;
 
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
@@ -80,14 +81,9 @@
       "input"
       "networkmanager"
       "docker"
-    ]; # Enable ‘sudo’ for the user.
-    #   packages = with pkgs; [
-    #     tree
-    #   ];
+    ];
   };
   users.defaultUserShell = pkgs.fish;
-
-  # programs.firefox.enable = true;
 
   # List packages installed in system profile.
   # You can use https://search.nixos.org/ to find more packages (and options).

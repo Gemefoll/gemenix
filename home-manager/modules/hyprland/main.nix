@@ -6,7 +6,7 @@
       env = [
         "GDK_BACKEND,wayland"
       ];
-      monitor = ",preferred,auto,1";
+      monitor = ",preferred,auto,1.6";
       "$mainMod" = "SUPER";
       "$terminal" = "alacritty";
       "$browser" = "zen";
