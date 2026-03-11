@@ -8,6 +8,7 @@
   home.packages = with pkgs; [
     alacritty
     amnezia-vpn
+    anki
     harmonoid
     hyprlock
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
@@ -27,6 +28,7 @@
 
     brightnessctl
     btop
+    bubblewrap
     docker
     fastfetch
     ffmpeg

@@ -1,5 +1,9 @@
 { pkgs, config, ... }:
 {
+  home.packages = with pkgs; [
+    font-awesome
+  ];
+
   stylix = {
     enable = true;
     polarity = "dark";
@@ -22,7 +26,10 @@
       };
       # serif = config.stylix.fonts.monospace;
       sansSerif = config.stylix.fonts.monospace;
-      emoji = config.stylix.fonts.monospace;
+      emoji = {
+        name = "Noto Color Emoji";
+        package = pkgs.noto-fonts-color-emoji;
+      };
     };
 
     icons = {
