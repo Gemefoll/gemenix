@@ -17,8 +17,6 @@
         ];
         modules-right = [
           "network"
-          "cpu"
-          "memory"
           "temperature"
           "backlight"
           "pulseaudio"
@@ -36,13 +34,7 @@
             "unlocked" = "🔓";
           };
         };
-        cpu = {
-          format = "cpu: {usage}%";
-        };
-        memory = {
-          format = "mem: {}%";
-        };
-
+        
         network = {
           tooltip = true;
           format = "{ifname}";

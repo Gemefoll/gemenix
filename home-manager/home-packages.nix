@@ -17,6 +17,7 @@
     mindustry-wayland
     pavucontrol
     qbittorrent
+    digikam
     rofi
     steam
     telegram-desktop
