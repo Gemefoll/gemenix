@@ -9,6 +9,7 @@
     alacritty
     amnezia-vpn
     anki
+    digikam
     harmonoid
     hyprlock
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
@@ -17,11 +18,11 @@
     mindustry-wayland
     pavucontrol
     qbittorrent
-    digikam
     rofi
     steam
     telegram-desktop
     thunar
+    thunderbird
     vlc
     vscode
     warpinator
@@ -43,5 +44,11 @@
     gcc
     go
     python3
+    rustup
+
+    # for screenshots
+    grim
+    slurp
+    wl-clipboard
   ];
 }
