@@ -8,7 +8,10 @@
   home.packages = with pkgs; [
     alacritty
     amnezia-vpn
+    amneziawg-tools
+    amneziawg-go
     anki
+    code-cursor
     digikam
     harmonoid
     hyprlock
@@ -17,6 +20,7 @@
     logseq
     mindustry-wayland
     pavucontrol
+    prusa-slicer
     qbittorrent
     rofi
     steam
