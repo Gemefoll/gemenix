@@ -35,6 +35,7 @@
     brightnessctl
     btop
     bubblewrap
+    cmus
     docker
     fastfetch
     ffmpeg

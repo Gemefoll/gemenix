@@ -6,5 +6,6 @@
     ./stylix.nix
     ./syncthing.nix
     ./waybar
+    ./mpd.nix
   ];
 }
