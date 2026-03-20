@@ -7,18 +7,20 @@
 
   home.packages = with pkgs; [
     alacritty
-    amnezia-vpn
-    amneziawg-tools
     amneziawg-go
+    amneziawg-tools
     anki
     code-cursor
     digikam
     harmonoid
     hyprlock
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
+    kitty
     libreoffice-fresh
     logseq
     mindustry-wayland
+    obs-studio
+    obsidian
     pavucontrol
     prusa-slicer
     qbittorrent
@@ -35,12 +37,12 @@
     brightnessctl
     btop
     bubblewrap
-    cmus
     docker
     fastfetch
     ffmpeg
     git
     gnutar
+    rmpc
     syncthing
     unzip
     zip

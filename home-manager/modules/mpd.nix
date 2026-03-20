@@ -1,6 +1,13 @@
 { pkgs, ... }:
 
 {
-  services.mpd.enable = true;
-  services.mpd.musicDirectory = "/home/gemefoll/Music";
+  services.mpd = {
+    enable = true;
+
+    musicDirectory = "/home/gemefoll/Music";
+
+    # extraConfig = ''
+    #   audio_buffer_size 512MB
+    # '';
+  };
 }
