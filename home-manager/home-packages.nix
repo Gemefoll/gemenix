@@ -12,7 +12,6 @@
     anki
     code-cursor
     digikam
-    harmonoid
     hyprlock
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     kitty
@@ -37,6 +36,7 @@
     brightnessctl
     btop
     bubblewrap
+    cava
     docker
     fastfetch
     ffmpeg

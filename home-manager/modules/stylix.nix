@@ -8,6 +8,10 @@
     enable = true;
     polarity = "dark";
 
+    targets = {
+      fish.enable = false;
+    };
+
     cursor = {
       name = "DMZ-Black";
       size = 24;
