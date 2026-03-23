@@ -7,7 +7,6 @@
 
   home.packages = with pkgs; [
     alacritty
-    amneziawg-go
     amneziawg-tools
     anki
     code-cursor
