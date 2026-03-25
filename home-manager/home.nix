@@ -6,8 +6,7 @@
     ./home-packages.nix
   ];
 
-  home.username = "gemefoll";
-  home.homeDirectory = "/home/gemefoll";
+  
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file = {
@@ -34,10 +33,6 @@
   # or
   #
   #  ~/.local/state/nix/profiles/profile/etc/profile.d/hm-session-vars.sh
-  #
-  # or
-  #
-  #  /etc/profiles/per-user/gemefoll/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
     # EDITOR = "emacs";

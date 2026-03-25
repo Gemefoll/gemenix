@@ -4,7 +4,7 @@
   services.mpd = {
     enable = true;
 
-    musicDirectory = "/home/gemefoll/Music";
+    musicDirectory = "~/Music";
 
     # extraConfig = ''
     #   audio_buffer_size 512MB

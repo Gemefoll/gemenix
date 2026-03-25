@@ -26,18 +26,26 @@
       stylix,
       ...
     }@inputs:
+    let
+      system = "x86_64-linux";
+      user = "gemefoll";
+    in
     {
+
       nixosConfigurations.gemenix = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
+        inherit system;
+        specialArgs = {
+          inherit user inputs;
+        };
         modules = [
           ./nixos/configuration.nix
         ];
       };
 
-      homeConfigurations."gemefoll" = home-manager.lib.homeManagerConfiguration {
-        pkgs = nixpkgs.legacyPackages.x86_64-linux;
+      homeConfigurations.${user} = home-manager.lib.homeManagerConfiguration {
+        pkgs = nixpkgs.legacyPackages.${system};
         extraSpecialArgs = {
-          inherit inputs;
+          inherit inputs user;
         };
 
         modules = [
@@ -45,6 +53,7 @@
           ./home-manager/home.nix
           ./conf.nix
         ];
+
       };
     };
 }

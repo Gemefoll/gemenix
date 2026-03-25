@@ -7,5 +7,3 @@ result-*
 
 
 conf.nix
-
-nixos/hardware-configuration.nix
