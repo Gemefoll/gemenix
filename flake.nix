@@ -43,6 +43,7 @@
         modules = [
           stylix.homeModules.stylix
           ./home-manager/home.nix
+          ./conf.nix
         ];
       };
     };
