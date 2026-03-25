@@ -6,6 +6,6 @@ result-*
 .direnv
 
 
-conf.nix
+# conf.nix
 
 nixos/hardware-configuration.nix
