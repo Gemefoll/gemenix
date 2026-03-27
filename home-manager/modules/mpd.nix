@@ -1,10 +1,10 @@
-{ pkgs, ... }:
+{ pkgs, user, ... }:
 
 {
   services.mpd = {
     enable = true;
 
-    musicDirectory = "~/Music";
+    musicDirectory = "/home/${user}/Music";
 
     # extraConfig = ''
     #   audio_buffer_size 512MB

@@ -8,7 +8,7 @@
       ];
       monitor = ",preferred,auto,1.6";
       "$mainMod" = "SUPER";
-      "$terminal" = "kitty";
+      "$terminal" = "ghostty";
       "$browser" = "zen";
       "$fileManager" = "thunar";
       "$menu" = "rofi -show drun";

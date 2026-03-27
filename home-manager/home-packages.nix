@@ -11,6 +11,7 @@
     anki
     code-cursor
     digikam
+    ghostty
     hyprlock
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     kitty
