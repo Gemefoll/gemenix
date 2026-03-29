@@ -6,15 +6,13 @@
   # environment.
 
   home.packages = with pkgs; [
-    alacritty
     amneziawg-tools
     anki
     code-cursor
-    digikam
+    discord
     ghostty
     hyprlock
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
-    kitty
     libreoffice-fresh
     logseq
     mindustry-wayland
