@@ -72,6 +72,7 @@
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   programs.fish.enable = true;
+  services.gvfs.enable = true;
   users.users.${user} = {
     isNormalUser = true;
     extraGroups = [
