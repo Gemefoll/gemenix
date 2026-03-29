@@ -11,6 +11,7 @@
     code-cursor
     discord
     ghostty
+    hmcl
     hyprlock
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     libreoffice-fresh
