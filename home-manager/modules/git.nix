@@ -1,3 +1,8 @@
 {
-  programs.git.enable = true;
+  programs.git = {
+    enable = true;
+    settings = {
+      pull.rebase = true;
+    };
+  };
 }
