@@ -6,7 +6,6 @@
     ./mpd.nix
     ./stylix.nix
     ./syncthing.nix
-    ./thunar.nix
     ./waybar
   ];
 }
