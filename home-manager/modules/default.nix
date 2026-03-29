@@ -3,9 +3,10 @@
     ./fish.nix
     ./git.nix
     ./hyprland
+    ./mpd.nix
     ./stylix.nix
     ./syncthing.nix
+    ./thunar.nix
     ./waybar
-    ./mpd.nix
   ];
 }

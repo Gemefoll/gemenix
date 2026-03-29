@@ -25,7 +25,6 @@
     rofi
     steam
     telegram-desktop
-    thunar
     thunderbird
     vlc
     vscode
