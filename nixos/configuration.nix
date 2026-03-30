@@ -29,11 +29,6 @@
   # Use latest kernel.
   boot.kernelPackages = pkgs.linuxPackages_zen;
 
-  boot.extraModulePackages = with config.boot.kernelPackages; [
-    amneziawg
-  ];
-  boot.kernelModules = [ "amneziawg" ];
-
   networking.hostName = "nixos"; # Define your hostname.
 
   # Configure network connections interactively with nmcli or nmtui.

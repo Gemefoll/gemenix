@@ -6,10 +6,12 @@
   # environment.
 
   home.packages = with pkgs; [
+    amneziawg-go
     amneziawg-tools
     anki
     code-cursor
     discord
+    digikam
     ghostty
     hmcl
     hyprlock
