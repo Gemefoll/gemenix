@@ -8,40 +8,32 @@
         layer = "top";
         position = "top";
         height = 30;
+
         modules-left = [
           "hyprland/workspaces"
           "clock"
         ];
+
         modules-center = [
-          "hyprland/window"
+          "mpd"
         ];
+
         modules-right = [
           "network"
           "temperature"
           "backlight"
           "pulseaudio"
           "battery"
-          "keyboard-state"
           "hyprland/language"
           "tray"
         ];
-        keyboard-state = {
-          numlock = true;
-          capslock = true;
-          format = "{name} {icon}";
-          format-icons = {
-            "locked" = "🔒";
-            "unlocked" = "🔓";
-          };
-        };
-        
+
         network = {
-          tooltip = true;
+          interface = "wl*";
           format = "{ifname}";
-          format-wifi = "{icon}";
-          tooltip-format = "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>\nIP: <b>{ipaddr}/{cidr}</b>\nGateway: <b>{gwaddr}</b>\nNetmask: <b>{netmask}</b>";
+          format-wifi = "{essid} ({signalStrength}%)";
+          format-disconnected = "Disconnected ⚠";
           format-linked = "{ifname} (No IP)";
-          interval = 2;
         };
 
         clock = {
@@ -50,6 +42,7 @@
           format = "{:%T}";
           format-alt = "{:%Y-%m-%d}";
         };
+
         "hyprland/workspaces" = {
           disable-scroll = true;
           all-outputs = true;
@@ -64,6 +57,18 @@
             ];
           };
         };
+
+        mpd = {
+          format = "{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩";
+          format-disconnected = "Disconnected ";
+          format-stopped = "Stopped ";
+          unknown-tag = "N/A";
+          interval = 5;
+
+          tooltip-format = "MPD (connected)";
+          tooltip-format-disconnected = "MPD (disconnected)";
+        };
+
       };
     };
   };
