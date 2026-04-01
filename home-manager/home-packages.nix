@@ -10,12 +10,13 @@
     amneziawg-tools
     anki
     code-cursor
-    discord
     digikam
+    discord
     ghostty
     hmcl
     hyprlock
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
+    kdePackages.kdenlive
     libreoffice-fresh
     logseq
     mindustry-wayland

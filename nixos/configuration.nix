@@ -27,7 +27,7 @@
   boot.loader.efi.canTouchEfiVariables = true;
 
   # Use latest kernel.
-  boot.kernelPackages = pkgs.linuxPackages_zen;
+  boot.kernelPackages = pkgs.linuxPackages_latest;
 
   networking.hostName = "nixos"; # Define your hostname.
 
@@ -59,7 +59,11 @@
 
   services.pipewire = {
     enable = true;
+    alsa.enable = true;
     pulse.enable = true;
+    jack.enable = true;
+
+    wireplumber.enable = true;
   };
 
   # Enable touchpad support (enabled default in most desktopManager).
