@@ -22,9 +22,14 @@
     "flakes"
   ];
 
-  # Use the systemd-boot EFI boot loader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader = {
+    grub = {
+      enable = true;
+      device = "nodev"; # "nodev" is used for UEFI
+      efiSupport = true;
+    };
+    efi.canTouchEfiVariables = true;
+  };
 
   # Use latest kernel.
   boot.kernelPackages = pkgs.linuxPackages_latest;
@@ -37,8 +42,9 @@
   # Set your time zone.
   time.timeZone = "Europe/Moscow";
 
-  services.displayManager.ly.enable = true;
-
+  services.displayManager.ly = {
+    enable = true;
+  };
   programs.hyprland.enable = true;
   virtualisation.docker.enable = true;
 
