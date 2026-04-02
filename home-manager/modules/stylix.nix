@@ -18,10 +18,7 @@
       package = pkgs.vanilla-dmz;
     };
 
-    image = pkgs.fetchurl {
-      url = "https://4kwallpapers.com/images/wallpapers/frierens-staff-3840x2160-20067.jpg";
-      hash = "sha256-+c61EjkIzVNB+dOv5GPBSfiGe59jPUjl3alVh7UGlE0=";
-    };
+    image = ./../../wallpaper.png;
 
     fonts = {
       monospace = {
