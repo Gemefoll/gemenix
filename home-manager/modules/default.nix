@@ -7,6 +7,6 @@
     ./niri
     ./stylix.nix
     ./syncthing.nix
-    ./waybar
+    ./waybar.nix
   ];
 }
