@@ -10,7 +10,7 @@
         height = 30;
 
         modules-left = [
-          "hyprland/workspaces"
+          "niri/workspaces"
           "clock"
         ];
 
@@ -24,7 +24,7 @@
           "backlight"
           "pulseaudio"
           "battery"
-          "hyprland/language"
+          "niri/language"
           "tray"
         ];
 
@@ -43,7 +43,7 @@
           format-alt = "{:%Y-%m-%d}";
         };
 
-        "hyprland/workspaces" = {
+        "niri/workspaces" = {
           disable-scroll = true;
           all-outputs = true;
 
@@ -60,8 +60,8 @@
 
         mpd = {
           format = "{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩";
-          format-disconnected = "Disconnected ";
-          format-stopped = "Stopped ";
+          format-disconnected = "Disconnected";
+          format-stopped = "Stopped";
           unknown-tag = "N/A";
           interval = 5;
 
