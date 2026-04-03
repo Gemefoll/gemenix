@@ -46,6 +46,7 @@
     gnutar
     rmpc
     syncthing
+    typst
     unzip
     zip
 
