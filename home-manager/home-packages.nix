@@ -51,6 +51,7 @@
 
     clang-tools
     gcc
+    gdb
     go
     python3
     rustup
