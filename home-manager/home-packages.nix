@@ -38,6 +38,7 @@
     btop
     bubblewrap
     cava
+    cmatrix
     docker
     fastfetch
     ffmpeg

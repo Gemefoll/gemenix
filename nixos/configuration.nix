@@ -73,6 +73,8 @@
     wireplumber.enable = true;
   };
 
+  networking.firewall.enable = false;
+
   # Enable touchpad support (enabled default in most desktopManager).
   # services.libinput.enable = true;
 
