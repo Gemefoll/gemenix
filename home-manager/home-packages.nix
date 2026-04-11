@@ -44,7 +44,6 @@
     ffmpeg
     git
     gnutar
-    quickshell
     rmpc
     syncthing
     typst
