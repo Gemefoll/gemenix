@@ -368,6 +368,7 @@ binds {
     Mod+D hotkey-overlay-title="Run an Application: rofi -show drun" { spawn "rofi" "-show" "drun"; }
     Mod+L hotkey-overlay-title="Lock the Screen: hyprlock" { spawn "hyprlock"; }
     Mod+W hotkey-overlay-title="Browser: zen" { spawn "zen"; }
+    Mod+E hotkey-overlay-title="Explorer: thunar" { spawn "thunar"; }
 
     // Use spawn-sh to run a shell command. Do this if you need pipes, multiple commands, etc.
     // Note: the entire command goes as a single argument. It's passed verbatim to `sh -c`.

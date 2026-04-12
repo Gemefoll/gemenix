@@ -42,6 +42,7 @@
     docker
     fastfetch
     ffmpeg
+    gamemode
     git
     gnutar
     rmpc
