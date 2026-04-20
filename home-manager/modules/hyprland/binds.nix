@@ -9,6 +9,7 @@
       "$mainMod,       R, exec, $menu"
       "$mainMod,       W, exec, $browser"
       "$mainMod,       L, exec, hyprlock"
+      "$mainMod SHIFT, F, fullscreen,"
 
       # Switching workspaces
       "$mainMod, 1, workspace, 1"

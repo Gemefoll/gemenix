@@ -10,6 +10,7 @@
     amneziawg-tools
     anki
     code-cursor
+    davinci-resolve
     digikam
     discord
     ghostty
@@ -26,6 +27,7 @@
     prusa-slicer
     qbittorrent
     rofi
+    shotcut
     steam
     telegram-desktop
     thunar
