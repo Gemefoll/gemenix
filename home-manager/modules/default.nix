@@ -1,6 +1,5 @@
 {
   imports = [
-    ./davinci.nix
     ./fish.nix
     ./git.nix
     ./hyprland
