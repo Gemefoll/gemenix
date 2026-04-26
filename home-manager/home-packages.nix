@@ -17,7 +17,6 @@
     hyprlock
     inputs.mathkit.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
-    kdePackages.kdenlive
     libreoffice-fresh
     logseq
     mindustry-wayland
@@ -27,7 +26,6 @@
     prusa-slicer
     qbittorrent
     rofi
-    shotcut
     steam
     telegram-desktop
     thunar
@@ -41,7 +39,6 @@
     btop
     bubblewrap
     cava
-    cmatrix
     docker
     fastfetch
     ffmpeg
