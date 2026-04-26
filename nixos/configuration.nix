@@ -46,7 +46,6 @@
     enable = true;
   };
   programs.hyprland.enable = true;
-  programs.niri.enable = true;
   virtualisation.docker.enable = true;
 
   # Configure network proxy if necessary

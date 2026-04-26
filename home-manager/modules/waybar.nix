@@ -10,7 +10,7 @@
         height = 30;
 
         modules-left = [
-          "niri/workspaces"
+          "hyprland/workspaces"
           "clock"
         ];
 
@@ -24,7 +24,7 @@
           "backlight"
           "pulseaudio"
           "battery"
-          "niri/language"
+          "hyprland/language"
           "tray"
         ];
 
@@ -43,7 +43,7 @@
           format-alt = "{:%Y-%m-%d}";
         };
 
-        "niri/workspaces" = {
+        "hyprland/workspaces" = {
           disable-scroll = true;
           all-outputs = true;
 
