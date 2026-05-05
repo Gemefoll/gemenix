@@ -34,6 +34,7 @@
     vscode
     warpinator
     waybar
+    zed-editor
 
     brightnessctl
     btop
@@ -48,7 +49,11 @@
     rmpc
     syncthing
     typst
+    tinymist
     unzip
+    nil
+    nixd
+    yt-dlp-light
     zip
 
     clang-tools

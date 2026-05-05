@@ -34,6 +34,8 @@
   # Use latest kernel.
   boot.kernelPackages = pkgs.linuxPackages_latest;
 
+  hardware.enableAllFirmware = true;
+
   networking.hostName = "nixos"; # Define your hostname.
 
   # Configure network connections interactively with nmcli or nmtui.
@@ -70,6 +72,22 @@
     jack.enable = true;
 
     wireplumber.enable = true;
+
+    # ... (остальные настройки PipeWire)
+    wireplumber.extraConfig."10-bluez" = {
+      "monitor.bluez.properties" = {
+        # Перечисляем нужные кодеки. LDAC должен быть в этом списке.
+        "bluez5.codecs" = [
+          "sbc"
+          "sbc_xq"
+          "aac"
+          "ldac"
+          "aptx"
+          "aptx_hd"
+        ];
+        # ... другие настройки по желанию
+      };
+    };
   };
 
   networking.firewall.enable = false;

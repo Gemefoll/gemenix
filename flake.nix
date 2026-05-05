@@ -21,6 +21,11 @@
       url = "github:Gemefoll/1c-mathkit-flake";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    aagl = {
+      url = "github:ezKEa/aagl-gtk-on-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
@@ -29,6 +34,7 @@
       nixpkgs,
       home-manager,
       stylix,
+      aagl,
       ...
     }@inputs:
     let
@@ -44,6 +50,10 @@
         };
         modules = [
           ./nixos/configuration.nix
+          {
+            imports = [ aagl.nixosModules.default ];
+            programs.sleepy-launcher.enable = true;
+          }
         ];
       };
 
