@@ -46,13 +46,13 @@
     gamemode
     git
     gnutar
-    rmpc
-    syncthing
-    typst
-    tinymist
-    unzip
     nil
     nixd
+    rmpc
+    syncthing
+    tinymist
+    typst
+    unzip
     yt-dlp-light
     zip
 
