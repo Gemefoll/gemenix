@@ -48,6 +48,7 @@
     gnutar
     nil
     nixd
+    ollama
     rmpc
     syncthing
     tinymist
