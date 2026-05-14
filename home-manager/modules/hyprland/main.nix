@@ -2,6 +2,7 @@
   wayland.windowManager.hyprland = {
     enable = true;
     systemd.enable = true;
+    configType = "hyprlang";
     settings = {
       env = [
         "GDK_BACKEND,wayland"
