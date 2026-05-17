@@ -65,6 +65,7 @@
 
           tooltip-format = "MPD (connected)";
           tooltip-format-disconnected = "MPD (disconnected)";
+          on-click = "ghostty -e rmpc";
         };
 
       };
