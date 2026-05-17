@@ -49,6 +49,7 @@
     nil
     nixd
     ollama
+    opencode
     rmpc
     syncthing
     tinymist
