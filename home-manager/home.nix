@@ -1,10 +1,17 @@
+{ lib, ... }:
+
 {
   imports = [
     ./modules
     ./home-packages.nix
   ];
 
-  
+  options.myAliases = lib.mkOption {
+    type = lib.types.attrsOf lib.types.str;
+    default = { };
+    description = "Custom shell aliases shared across shells";
+  };
+
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file = {
@@ -44,7 +51,6 @@
   # release notes.
   home.stateVersion = "25.11"; # Please read the comment before changing.
   gtk.gtk4.theme = null;
-
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
