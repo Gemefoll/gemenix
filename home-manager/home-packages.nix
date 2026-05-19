@@ -48,9 +48,11 @@
     gnutar
     nil
     nixd
+    nushell
     ollama
     opencode
     rmpc
+    starship
     syncthing
     tinymist
     typst

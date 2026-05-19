@@ -7,4 +7,8 @@
     hm = "home-manager switch --flake ~/gemenix";
     run = "g++ $argv -DLOCAL -o main && ./main";
   };
+
+  programs.fish.interactiveShellInit = ''
+    starship init fish | source
+  '';
 }
