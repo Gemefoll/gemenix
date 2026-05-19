@@ -1,6 +1,8 @@
 { config, ... }:
 
 {
+  programs.nushell.enable = true;
+
   programs.nushell.extraConfig = ''
     mkdir ($nu.data-dir | path join "vendor/autoload")
     starship init nu | save -f ($nu.data-dir | path join "vendor/autoload/starship.nu")
