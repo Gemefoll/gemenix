@@ -6,12 +6,6 @@
     ./home-packages.nix
   ];
 
-  options.myAliases = lib.mkOption {
-    type = lib.types.attrsOf lib.types.str;
-    default = { };
-    description = "Custom shell aliases shared across shells";
-  };
-
   # Home Manager is pretty good at managing dotfiles. The primary way to manage
   # plain files is through 'home.file'.
   home.file = {

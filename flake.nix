@@ -66,6 +66,7 @@
         modules = [
           stylix.homeModules.stylix
           ./home-manager/home.nix
+          ./ops.nix
           ./conf.nix
         ];
 
