@@ -50,6 +50,11 @@
   programs.niri.enable = true;
   virtualisation.docker.enable = true;
 
+  programs.steam.enable = true;
+  programs.steam.extraCompatPackages = [
+      pkgs.proton-ge-bin
+  ];
+
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
   # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";

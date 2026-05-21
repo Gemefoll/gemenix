@@ -26,7 +26,6 @@
     prusa-slicer
     qbittorrent
     rofi
-    steam
     telegram-desktop
     thunar
     thunderbird
