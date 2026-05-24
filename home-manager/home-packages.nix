@@ -16,6 +16,7 @@
     ghostty
     hyprlock
     inputs.mathkit.packages.${pkgs.stdenv.hostPlatform.system}.default
+    inputs.xmcl.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     libreoffice-fresh
     logseq

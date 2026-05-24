@@ -26,11 +26,15 @@
       url = "github:ezKEa/aagl-gtk-on-nix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
+
+    xmcl = {
+      url = "github:x45iq/xmcl-nix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs =
     {
-      self,
       nixpkgs,
       home-manager,
       stylix,
@@ -64,6 +68,7 @@
         };
 
         modules = [
+          inputs.xmcl.homeModules.xmcl
           stylix.homeModules.stylix
           ./home-manager/home.nix
         ];
