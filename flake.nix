@@ -22,11 +22,6 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    aagl = {
-      url = "github:ezKEa/aagl-gtk-on-nix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
     xmcl = {
       url = "github:x45iq/xmcl-nix";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -38,7 +33,6 @@
       nixpkgs,
       home-manager,
       stylix,
-      aagl,
       ...
     }@inputs:
     let
@@ -54,10 +48,6 @@
         };
         modules = [
           ./nixos/configuration.nix
-          {
-            imports = [ aagl.nixosModules.default ];
-            programs.sleepy-launcher.enable = true;
-          }
         ];
       };
 
