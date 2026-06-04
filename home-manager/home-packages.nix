@@ -11,7 +11,6 @@
     anki
     code-cursor
     davinci-resolve
-    digikam
     discord
     ghostty
     hyprlock
@@ -19,13 +18,13 @@
     inputs.xmcl.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     libreoffice-fresh
-    logseq
     mindustry-wayland
     obs-studio
     obsidian
     pavucontrol
     prusa-slicer
     qbittorrent
+    rawtherapee
     rofi
     telegram-desktop
     thunar
@@ -38,7 +37,6 @@
 
     brightnessctl
     btop
-    bubblewrap
     cava
     docker
     fastfetch
