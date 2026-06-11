@@ -26,6 +26,7 @@
     qbittorrent
     rawtherapee
     rofi
+    steam-devices-udev-rules
     telegram-desktop
     thunar
     thunderbird
@@ -36,7 +37,7 @@
     zed-editor
 
     brightnessctl
-    btop
+    btop-cuda
     cava
     docker
     fastfetch

@@ -10,6 +10,8 @@
 }:
 
 {
+  zramSwap.enable = true;
+  
   nixpkgs.config.allowUnfree = true;
   imports = [
     # Include the results of the hardware scan.
@@ -129,6 +131,15 @@
   # Load nvidia driver for Xorg and Wayland
   services.xserver.videoDrivers = [ "nvidia" ];
 
+  nixpkgs.config.cudaSupport = true;
+  nix.settings = {
+    substituters = [
+      "https://cache.nixos-cuda.org"
+    ];
+    trusted-public-keys = [
+      "cache.nixos-cuda.org:74DUi4Ye579gUqzH4ziL9IyiJBlDpMRn9MBN8oNan9M="
+    ];
+  };
   hardware.nvidia = {
 
     # Modesetting is required.
