@@ -11,7 +11,7 @@
 
 {
   zramSwap.enable = true;
-  
+
   nixpkgs.config.allowUnfree = true;
   imports = [
     # Include the results of the hardware scan.
@@ -54,7 +54,7 @@
 
   programs.steam.enable = true;
   programs.steam.extraCompatPackages = [
-      pkgs.proton-ge-bin
+    pkgs.proton-ge-bin
   ];
 
   # Configure network proxy if necessary
