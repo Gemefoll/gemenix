@@ -23,6 +23,10 @@
     "flakes"
   ];
 
+  services.udev.packages = with pkgs; [
+    qmk-udev-rules # For keyboards
+  ];
+  
   boot.loader = {
     grub = {
       enable = true;

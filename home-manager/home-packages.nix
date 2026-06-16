@@ -10,6 +10,7 @@
     amneziawg-go
     amneziawg-tools
     anki
+    chromium
     code-cursor
     davinci-resolve
     discord
@@ -20,6 +21,7 @@
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     libreoffice-fresh
     mindustry-wayland
+    mpv
     obs-studio
     obsidian
     pavucontrol
