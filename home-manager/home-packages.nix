@@ -10,6 +10,7 @@
     amneziawg-go
     amneziawg-tools
     anki
+    ardour
     chromium
     code-cursor
     davinci-resolve
@@ -20,7 +21,6 @@
     inputs.xmcl.packages.${pkgs.stdenv.hostPlatform.system}.default
     inputs.zen-browser.packages.${pkgs.stdenv.hostPlatform.system}.default
     libreoffice-fresh
-    mindustry-wayland
     mpv
     obs-studio
     obsidian
@@ -29,11 +29,12 @@
     qbittorrent
     rawtherapee
     rofi
+    sfizz-ui
     steam-devices-udev-rules
+    surge-xt
     telegram-desktop
     thunar
     thunderbird
-    vlc
     vscode
     warpinator
     waybar
@@ -46,19 +47,19 @@
     fastfetch
     ffmpeg
     gamemode
+    gcan
     git
     gnutar
     nil
     nixd
     nushell
-    ollama
-    opencode
     rmpc
     starship
     syncthing
     tinymist
     typst
     unzip
+    wl-clipboard
     yt-dlp-light
     zip
 
@@ -68,10 +69,5 @@
     go
     python3
     rustup
-
-    # for screenshots
-    grim
-    slurp
-    wl-clipboard
   ];
 }

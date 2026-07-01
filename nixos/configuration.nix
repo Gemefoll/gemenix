@@ -26,7 +26,16 @@
   services.udev.packages = with pkgs; [
     qmk-udev-rules # For keyboards
   ];
-  
+
+  security.pam.loginLimits = [
+    {
+      domain = "*";
+      type = "-";
+      item = "memlock";
+      value = "infinity";
+    }
+  ];
+
   boot.loader = {
     grub = {
       enable = true;
@@ -58,6 +67,7 @@
 
   programs.steam.enable = true;
   programs.steam.extraCompatPackages = [
+    pkgs.dwproton-bin
     pkgs.proton-ge-bin
   ];
 
@@ -76,9 +86,12 @@
   # Enable CUPS to print documents.
   # services.printing.enable = true;
 
+  security.rtkit.enable = true;
+  
   services.pipewire = {
     enable = true;
     alsa.enable = true;
+    alsa.support32Bit = true;
     pulse.enable = true;
     jack.enable = true;
 
@@ -112,10 +125,11 @@
   users.users.${user} = {
     isNormalUser = true;
     extraGroups = [
-      "wheel"
+      "audio"
+      "docker"
       "input"
       "networkmanager"
-      "docker"
+      "wheel"
     ];
   };
   users.defaultUserShell = pkgs.fish;
