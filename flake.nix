@@ -58,11 +58,8 @@
         };
 
         modules = [
-          inputs.xmcl.homeModules.xmcl
-          stylix.homeModules.stylix
           ./home-manager/home.nix
         ];
-
       };
     };
 }
