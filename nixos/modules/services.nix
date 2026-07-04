@@ -50,5 +50,7 @@
 
   services.gvfs.enable = true;
 
+  services.tailscale.enable = true;
+
   virtualisation.docker.enable = true;
 }
