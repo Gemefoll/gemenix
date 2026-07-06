@@ -28,7 +28,6 @@
       surge-xt
       telegram-desktop
       thunar
-      thunderbird
       vscode
       warpinator
       waybar
