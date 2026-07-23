@@ -1,6 +1,6 @@
 {
   programs.ghostty = {
     enable = true;
-    systemd.enable = false;
+    systemd.enable = true;
   };
 }
