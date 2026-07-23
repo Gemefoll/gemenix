@@ -2,6 +2,7 @@
   imports = [
     ./direnv.nix
     ./fish.nix
+    ./ghostty
     ./git.nix
     ./minecraft.nix
     ./mpd.nix

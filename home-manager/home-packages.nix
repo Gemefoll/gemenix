@@ -8,12 +8,13 @@
     [
       anki
       chromium
-      code-cursor
       davinci-resolve
       discord
       ghostty
       hyprlock
       libreoffice-fresh
+      localsend
+      maptool
       mpv
       obs-studio
       obsidian
@@ -28,7 +29,6 @@
       tor-browser
       vicinae
       vscode
-      warpinator
       waybar
       zed-editor
 
