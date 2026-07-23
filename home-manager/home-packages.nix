@@ -49,6 +49,7 @@
       gcan
       git
       gnutar
+      linux-wallpaperengine
       nil
       nixd
       nushell

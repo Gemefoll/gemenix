@@ -8,6 +8,7 @@
     ./niri
     ./stylix.nix
     ./syncthing.nix
+    ./wallpaper.nix
     ./waybar.nix
   ];
 }

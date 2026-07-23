@@ -10,6 +10,7 @@
 
     targets = {
       fish.enable = false;
+      hyprpaper.enable = false;
     };
 
     cursor = {
@@ -18,7 +19,7 @@
       package = pkgs.vanilla-dmz;
     };
 
-    image = ./../../wallpaper.png;
+    image = ../../wallpaper.png;
 
     fonts = {
       monospace = {
