@@ -5,9 +5,6 @@
     enable = true;
 
     musicDirectory = "/home/${user}/Music";
-
-    # extraConfig = ''
-    #   audio_buffer_size 512MB
-    # '';
   };
+  services.mpd-mpris.enable = true;
 }

@@ -1,13 +1,12 @@
 { pkgs, inputs, ... }: {
   nixpkgs.config.allowUnfree = true;
   nixpkgs.config.cudaSupport = true;
-  
+
   home.packages =
     with pkgs;
     # GUI applications
     [
       anki
-      ardour
       chromium
       code-cursor
       davinci-resolve
@@ -19,15 +18,15 @@
       obs-studio
       obsidian
       opencode
+      osu-lazer-bin
       pavucontrol
       prusa-slicer
       qbittorrent
       rawtherapee
-      rofi
-      sfizz-ui
-      surge-xt
       telegram-desktop
       thunar
+      tor-browser
+      vicinae
       vscode
       warpinator
       waybar
@@ -40,8 +39,6 @@
     ]
     # CLI tools
     ++ [
-      amneziawg-go
-      amneziawg-tools
       brightnessctl
       btop-cuda
       cava

@@ -3,7 +3,6 @@
     ./direnv.nix
     ./fish.nix
     ./git.nix
-    ./hyprland
     ./minecraft.nix
     ./mpd.nix
     ./niri

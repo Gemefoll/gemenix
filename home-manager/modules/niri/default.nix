@@ -15,4 +15,5 @@
     ];
     config.common.default = [ "gnome" ];
   };
+  services.playerctld.enable = true;
 }

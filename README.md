@@ -42,7 +42,7 @@ nix flake update
 | `nixos/modules/system.nix` | Bootloader, kernel, timezone, graphics |
 | `nixos/modules/nvidia.nix` | NVIDIA driver settings |
 | `nixos/modules/services.nix` | PipeWire, Jellyfin, Bluetooth, Docker, display manager |
-| `nixos/modules/programs.nix` | Steam, Hyprland, Niri, Fish |
+| `nixos/modules/programs.nix` | Steam, Niri, Fish |
 | `nixos/modules/networking.nix` | Hostname, NetworkManager, firewall |
 | `nixos/modules/security.nix` | PAM login limits |
 | `nixos/modules/nix.nix` | Nix settings, CUDA, substituters |

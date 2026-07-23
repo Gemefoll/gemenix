@@ -9,6 +9,8 @@
   home.username = user;
   home.homeDirectory = "/home/${user}";
 
+  home.pointerCursor.enable = true;
+  
   home.sessionVariables = { };
 
   programs.home-manager.enable = true;
