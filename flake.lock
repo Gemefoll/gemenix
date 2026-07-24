@@ -167,11 +167,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1776249126,
-        "narHash": "sha256-vVJHzIajQ6mMFMDZMIHiX5H3zx0ooVK/CaRecYzmKYo=",
+        "lastModified": 1784854620,
+        "narHash": "sha256-UhlWqc3i5CyEki7TlhHSbmkX5hUQy+1wOkVZ7NGWtqI=",
         "owner": "Gemefoll",
         "repo": "1c-mathkit-flake",
-        "rev": "216a31298391426f5b9ea8de65714a6e16986bd4",
+        "rev": "e46514d806b51c3b94b74db64a2761ccc1b95873",
         "type": "github"
       },
       "original": {
