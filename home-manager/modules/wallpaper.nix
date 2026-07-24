@@ -1,7 +1,7 @@
 { user, ... } :
 {
   services.linux-wallpaperengine = {
-    enable = true;
+    enable = false;
 
     assetsPath = "/home/${user}/.local/share/Steam/steamapps/common/wallpaper_engine/assets";
     wallpapers = [
