@@ -12,10 +12,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
-    stylix = {
-      url = "github:nix-community/stylix";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
+    catppuccin.url = "github:catppuccin/nix";
 
     mathkit = {
       url = "github:Gemefoll/1c-mathkit-flake";
@@ -32,6 +29,7 @@
     {
       nixpkgs,
       home-manager,
+      catppuccin,
       ...
     }@inputs:
     let
@@ -58,6 +56,7 @@
 
         modules = [
           ./home-manager/home.nix
+          catppuccin.homeModules.catppuccin
         ];
       };
     };

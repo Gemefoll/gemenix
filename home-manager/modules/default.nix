@@ -1,5 +1,6 @@
 {
   imports = [
+    ./catppuccin.nix
     ./direnv.nix
     ./fish.nix
     ./ghostty.nix
@@ -7,9 +8,9 @@
     ./minecraft.nix
     ./mpd.nix
     ./niri
-    ./stylix.nix
     ./syncthing.nix
     ./wallpaper.nix
     ./waybar.nix
+    ./yazi.nix
   ];
 }

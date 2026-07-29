@@ -24,6 +24,7 @@
       prusa-slicer
       qbittorrent
       rawtherapee
+      sideband
       telegram-desktop
       thunar
       tor-browser
@@ -52,6 +53,7 @@
       linux-wallpaperengine
       nil
       nixd
+      nodejs_26
       nushell
       rmpc
       starship
