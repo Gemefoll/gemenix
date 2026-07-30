@@ -4,14 +4,13 @@
     font-awesome
   ];
 
-  services.hyprpaper.enable = true;
-  
   stylix = {
     enable = true;
     polarity = "dark";
 
     targets = {
       fish.enable = false;
+      hyprpaper.enable = false;
     };
 
     cursor = {
