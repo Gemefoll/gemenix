@@ -5,13 +5,17 @@
   ];
 
   services.hyprpaper.enable = true;
+  programs.ghostty.enable = true;
+
   
   stylix = {
     enable = true;
     polarity = "dark";
+    base16Scheme = "${pkgs.base16-schemes}/share/themes/tokyo-night-dark.yaml";
 
     targets = {
       fish.enable = false;
+      obsidian.vaultNames = [ "pf2_windblown" ];
     };
 
     cursor = {

@@ -2,23 +2,36 @@
   nixpkgs.config.allowUnfree = true;
   nixpkgs.config.cudaSupport = true;
 
+  programs.anki.enable = true;
+  programs.hyprlock.enable = true;
+  programs.ghostty.enable = true;
+  programs.opencode.enable = true;
+  programs.obsidian = {
+    enable = true;
+    cli.enable = true;
+  };
+  programs.vicinae = {
+    enable = true;
+    systemd.enable = true;
+  };
+  programs.vscode.enable = true;
+  programs.zed-editor.enable = true;
+
   home.packages =
     with pkgs;
     # GUI applications
     [
-      anki
+      aerion
       chromium
       davinci-resolve
       discord
-      ghostty
-      hyprlock
+      goldendict-ng
+      koodo-reader
       libreoffice-fresh
       localsend
-      maptool
+      marimo
       mpv
       obs-studio
-      obsidian
-      opencode
       osu-lazer-bin
       pavucontrol
       prusa-slicer
@@ -27,7 +40,6 @@
       telegram-desktop
       thunar
       tor-browser
-      vicinae
       vscode
       waybar
       zed-editor
@@ -49,7 +61,6 @@
       gcan
       git
       gnutar
-      linux-wallpaperengine
       nil
       nixd
       nushell
