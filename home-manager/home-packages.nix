@@ -17,15 +17,42 @@
   programs.vscode.enable = true;
   programs.zed-editor.enable = true;
 
+  xdg.mimeApps = {
+    enable = true;
+
+    defaultApplications = {
+      # Text
+      "text/plain" = "dev.zed.Zed.desktop";
+
+      # Web / email
+      "x-scheme-handler/http" = "zen.desktop";
+      "x-scheme-handler/https" = "zen.desktop";
+      "x-scheme-handler/mailto" = "zen.desktop";
+
+      # PDF
+      "application/pdf" = "zen.desktop";
+
+      # Video
+      "video/mp4" = "mpv.desktop";
+      "video/webm" = "mpv.desktop";
+      "video/x-matroska" = "mpv.desktop";
+      "video/mpeg" = "mpv.desktop";
+
+      # Audio
+      "audio/mpeg" = "mpv.desktop";
+      "audio/ogg" = "mpv.desktop";
+      "audio/wav" = "mpv.desktop";
+      "audio/flac" = "mpv.desktop";
+    };
+  };
+
   home.packages =
     with pkgs;
     # GUI applications
     [
-      aerion
       chromium
       davinci-resolve
       discord
-      goldendict-ng
       koodo-reader
       libreoffice-fresh
       localsend
@@ -38,7 +65,6 @@
       qbittorrent
       rawtherapee
       telegram-desktop
-      thunar
       tor-browser
       vscode
       waybar
