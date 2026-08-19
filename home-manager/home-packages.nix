@@ -106,6 +106,7 @@
       gcc
       gdb
       go
+      nodejs_26
       python3
       rustup
     ]
